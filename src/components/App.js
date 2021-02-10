@@ -15,12 +15,14 @@ function App() {
     hasResult: false
   });
 
+  let year = new Date();
+  year = year.getFullYear();
+
   return (
     <div className="App">
 
       <div className="container">
-        <img src="./assets/points.png" alt="Points.com" className="logo" />
-        <h1>Tax Calculator</h1>
+        <h1>Canada Tax Calculator</h1>
         { !results.hasResult &&(
           <InputValue setResults={setResults} />
         )}
@@ -29,9 +31,11 @@ function App() {
       { results.hasResult &&(
         <Result results={results} setResults={setResults} />
       )}
+      <br></br>
+      <cite>Lucas Sacheto - {year}</cite>
 
   </div>    
-
+  
   );
 }
 

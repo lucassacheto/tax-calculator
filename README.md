@@ -1,13 +1,13 @@
-# Points.com Tax Calculator Assignment
+# Canada Tax Calculator
 
 #### Status
-Done.
+New features in progress, but working :)
 
 ## Installation and Setup Isntructions
 
 Installation:
 
-Please clone or download the respository  [Tax Calculator Assigment](https://github.com/lucassacheto/tax-calculator).
+Please clone or download the respository  [Tax Calculator](https://github.com/lucassacheto/tax-calculator).
 
 You will need `node` and `npm` installed globally on your machine.
 

@@ -11,7 +11,7 @@ function InputValue(props){
 
     function useValue(event){
         
-        if(amount !== ""){
+        if(amount !== "" && amount > 0){
             let _base;    
             let _firstCalc;
             let _fedTax;
@@ -92,7 +92,7 @@ function InputValue(props){
         <form onSubmit={useValue}>
             <div className="boxInput">
                 { showError && (
-                    <div className="error">Please fill the form</div>
+                    <div className="error">Please fill a valid amount</div>
                 )}
                 <input type="number" value={amount} onChange={getAmount} placeholder="Enter your annual gross" />
                 <button>submit</button>                
