@@ -4,16 +4,7 @@ import Result from "./Result";
 
 function App() {
 
-  const [results, setResults] = useState({
-    taxIncome: "",
-    base: "",
-    firstCalc: "",
-    fedTax: "",
-    multiplyAmount: "",
-    taxAmount: "",
-    total: "",
-    hasResult: false
-  });
+  const [results, setResults] = useState({});
 
   let year = new Date();
   year = year.getFullYear();
