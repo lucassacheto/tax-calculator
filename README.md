@@ -1,6 +1,6 @@
 # Canada Tax Calculator
 
-Application demo  [Tax Calculator](https://lucassacheto.me/lucassacheto/tax-calculator)
+Application demo  [Tax Calculator](https://tax-calculator-psi.vercel.app/)
 
 #### Status
 New features in progress, but working :)
